@@ -6,7 +6,7 @@
 /*   By: hoakoumi <hoakoumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 21:13:16 by hoakoumi          #+#    #+#             */
-/*   Updated: 2024/02/07 14:00:47 by hoakoumi         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:03:27 by hoakoumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,13 +25,13 @@ ClapTrap::ClapTrap(const ClapTrap& other)
     *this = other;
 }
 
-std::string ClapTrap::geth(void)
+std::string ClapTrap::getclaptrap(void)
 {
     return(Name);
 }
 
 
-void    ClapTrap::seth(std::string h) 
+void    ClapTrap::setclaptrap(std::string h) 
 {
     Name = h;
 }
