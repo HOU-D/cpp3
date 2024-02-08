@@ -6,7 +6,7 @@
 /*   By: hoakoumi <hoakoumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 21:17:40 by hoakoumi          #+#    #+#             */
-/*   Updated: 2024/02/06 21:17:42 by hoakoumi         ###   ########.fr       */
+/*   Updated: 2024/02/08 01:33:53 by hoakoumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,5 +50,5 @@ FragTrap::~FragTrap()
 
 void FragTrap::highFivesGuys(void)
 {
-    std::cout << "FragTrap " << Name << ", causing " << Attack_damage << " points of damage!" << std::endl;
+    std::cout << "FragTrap " << Name << " requests a high five!" << std::endl;
 }

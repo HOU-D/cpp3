@@ -6,7 +6,7 @@
 /*   By: hoakoumi <hoakoumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 21:16:56 by hoakoumi          #+#    #+#             */
-/*   Updated: 2024/02/07 23:01:07 by hoakoumi         ###   ########.fr       */
+/*   Updated: 2024/02/08 01:27:44 by hoakoumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ ClapTrap::~ClapTrap()
 
 ClapTrap::ClapTrap(std::string Name)
 {   
-    std::cout << "ClapTrap " << Name << " has been created!" << std::endl;
+    std::cout << "ClapTrap " << Name << "has been created!" << std::endl;
 
     this->Name = Name;
     Hit_points = 10;

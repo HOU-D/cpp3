@@ -6,7 +6,7 @@
 /*   By: hoakoumi <hoakoumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/07 23:37:22 by hoakoumi          #+#    #+#             */
-/*   Updated: 2024/02/07 23:39:48 by hoakoumi         ###   ########.fr       */
+/*   Updated: 2024/02/08 01:21:43 by hoakoumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,13 @@
 int main()
 {
     ScavTrap ScavTrap1 ("houda");
-
+    std:: cout << std::endl;
+    
     ScavTrap1.guardGate();
+    std:: cout << std::endl;
+    
     ScavTrap1.attack("loubna");
-    //std::cout <<ScavTrap1.h() << std::endl;
+    std:: cout << std::endl;
 
     return 0;
 }

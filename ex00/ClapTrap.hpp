@@ -24,8 +24,11 @@ class ClapTrap
         void attack(const std::string& target);
         void takeDamage(unsigned int amount);
         void beRepaired(unsigned int amount);
-        std::string getclaptrap(void);
-        void  setclaptrap(std::string h);
+
+        std::string     getclaptrap(void);
+        void            setclaptrap(std::string h);
+        int             gete(void);
+        int             geth(void);
 };
 
 #endif

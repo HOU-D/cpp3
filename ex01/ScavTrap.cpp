@@ -6,16 +6,15 @@
 /*   By: hoakoumi <hoakoumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 21:17:09 by hoakoumi          #+#    #+#             */
-/*   Updated: 2024/02/07 23:48:09 by hoakoumi         ###   ########.fr       */
+/*   Updated: 2024/02/08 01:27:21 by hoakoumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "ScavTrap.hpp"
 
 ScavTrap::ScavTrap()
 {
-    std::cout << "ScavTrap " << Name << " has been created!" << std::endl;
+    std::cout << "ScavTrap " << Name << "has been created!" << std::endl;
     
     Hit_points = 100;
     Energy_points = 50;
@@ -44,7 +43,7 @@ ScavTrap::ScavTrap(const ScavTrap& other)
 
 ScavTrap::ScavTrap(std::string Name)
 {
-    std::cout << "ScavTrap " << Name << " has been created!" << std::endl;
+    std::cout << "ScavTrap " << Name <<" has been created!" << std::endl;
     
     this->Name = Name;
     Hit_points = 100;
@@ -54,7 +53,7 @@ ScavTrap::ScavTrap(std::string Name)
 
 void ScavTrap::guardGate()
 {
-    std::cout << "ScavTrap " << Name << ", causing " << Attack_damage << " points of damage!" << std::endl;
+    std::cout << "ScavTrap " << Name << " is now in Gate keeper mode!" << std::endl;
 }
 
 void ScavTrap::attack(const std::string& target)

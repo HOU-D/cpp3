@@ -1,4 +1,4 @@
-NAME = a.out
+NAME = Serena
 
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
